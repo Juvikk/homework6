@@ -9,6 +9,8 @@ print(my_dict)
 
 my_set = {2002, 'pelmen', 'pelmen', 2024, True}
 print(my_set)
-my_set = {'banan', 100}
+print(my_set.add(12345))
+print(my_set.add('banan'))
 print(my_set.discard('banan'))
 print(my_set)
+
